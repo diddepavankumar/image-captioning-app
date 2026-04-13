@@ -1,0 +1,10 @@
+# Streamlit Community Cloud: smaller CPU-only PyTorch + BLIP stack (set this file under Advanced → Requirements).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+transformers>=4.40.0,<5
+accelerate>=0.20.0
+streamlit>=1.28.0
+pillow>=9.0.0
+gTTS>=2.3.0
+googletrans==4.0.0-rc1
+numpy>=1.24.0
